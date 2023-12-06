@@ -1,0 +1,31 @@
+
+.sub_navbar{
+    display: flex;
+    justify-content: center;
+    height:32px;
+    width:100%;
+    background-color:#002c3e;
+    padding: 10px;
+}
+.sub_navbar ul 
+{
+    list-style-type:none;
+}
+
+.sub_navbar ul li{
+    float:left;
+}
+.sub_navbar ul li a {
+    font-size:20px;
+    padding:12px 16px;
+    
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-top:5px;
+}
+
+.sub_navbar ul li a .active
+{
+    color:black;
+}

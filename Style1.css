@@ -1,0 +1,244 @@
+ *{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+section{
+    justify-content:center;
+    padding:10px 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .lipstick
+{
+border:2px solid black;
+border-radius:10px;
+height: 300px;
+width:25%;
+margin:10px; */
+
+
+/* } */
+div.card {
+    margin:10px 10px;
+    height:390px;
+    width:18.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+.header_1 {
+    height:60%;
+    width:100%;
+    background-image: url(Lipstick_1-fotor-bg-remover-2023082711276.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;
+
+  }
+.header_1 p{
+    display:none;
+}
+.header_1:hover p{
+    display: block;
+    float: left;
+    bottom: 2px;
+}
+.header_1:hover{
+    background: url(Lipstick_1_hover-removebg-preview.png) no-repeat;
+    background-size:contain;
+    background-position: center;
+
+
+  }
+
+div.header_2 {
+    height: 60%;
+    width: 100%;
+    background-image: url(Lipstick_2.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_2:hover{
+ 
+  background: url(Lipstick_2_hover.png) no-repeat;
+  background-size:cover;
+  background-position: center;
+
+}
+
+div.header_3{
+    height: 60%;
+    width: 100%;
+    background-image: url(Lipstick_3.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_3:hover{
+ 
+  background: url(Lipstick_1.0_hover.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+ 
+div.header_4{
+    height: 60%;
+    width: 100%;
+    background-image: url(Lipsitck_4-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_4:hover{
+ 
+  background: url(Lipstick_4_hover-removebg-preview.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+
+div.header_5{
+    height: 60%;
+    width: 100%;
+    background-image: url(Lipstick_5.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_5:hover{
+ 
+  background: url(Lipstick_5_hover.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+
+div.header_6{
+    height: 60%;
+    width: 100%;
+    background-image: url(Lipstick_6.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_6:hover{
+ 
+  background: url(Lipstick_6_hover.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+
+
+div.header_7{
+    height: 60%;
+    width: 100%;
+    background-image: url(LIpstick_7.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_7:hover{
+ 
+  background: url(Lipstick_7_hover.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+
+div.header_8{
+    height: 60%;
+    width: 100%;
+    background-image: url(LIpstick_8.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_8:hover{
+ 
+  background: url(Lipstick_8_hover.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+
+div.header_9{
+    height: 60%;
+    width: 100%;
+    background-image: url(LIpstick_9.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_9:hover{
+ 
+  background: url(Lipstick_9_hover.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+
+div.header_10{
+    height: 60%;
+    width: 100%;
+    background-image: url(Lipstick_10.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+
+}
+div.header_10:hover{
+ 
+  background: url(Lipstick_10_hover.png) no-repeat;
+  background-size:contain;
+  background-position: center;
+
+}
+
+div.container {
+      padding: 10px;
+      height: 20%;
+      /* border:1px solid red; */
+  }
+  
+.button{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 0%;
+
+    
+    
+}
+
+
+ .button  button{
+    font-size: 25px;
+    color:white;
+    background-color: black;
+    font-weight:bolder;
+    width:80%;
+  }
+.button button:hover{
+    color:black;
+    background-color: white;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+  }
+  .button i:hover {
+    color:red;
+  }
